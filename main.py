@@ -17,17 +17,20 @@ def logout(user):
 def correct_attempt():
     login("19102168", "178045HI")
 
-for en in range(21103300, 21103400, 2):
-    print(login(en, "357043AR"))
-    time.sleep(1)
+for en in range(19102100, 19102200, 2):
+    print(login(en, "178045HI"))
+    time.sleep(0.05)
     logout(en)
     print(login(en, "179001AS"))
-    time.sleep(1)
+    time.sleep(0.05)
+    logout(en)
+    print(login(en+1, "178045HI"))
+    time.sleep(0.05)
     logout(en)
     print(login(en+1, "179001AS"))
-    time.sleep(1)
-    logout(en)
-    print(login(en+1, "179001AS"))
-    time.sleep(1)
+    time.sleep(0.05)
     logout(en)
     correct_attempt()
+
+# 179001AS
+# 357043AR
