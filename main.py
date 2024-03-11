@@ -6,7 +6,7 @@ def login(user, passwd):
     req = {'mode': '191', 'username': user, 'password': passwd}
     x = requests.post(url, data=req)
     if x.text[90] == 'Y':
-        return f'[+] SUCESS User = {user}, Pass = {passwd}'
+        return f'[+] SUCCESS User = {user}, Pass = {passwd}'
     else:
         return f'[-] {user} Failure :('
 
