@@ -8,7 +8,7 @@ def login(user, passwd):
     if x.text[90] == 'Y':
         return f'[+] SUCESS User = {user}, Pass = {passwd}'
     else:
-        return f'[-] {user%1000} Failure :('
+        return f'[-] {user} Failure :('
 
 def logout(user):
     req = {'mode': '193', 'username': user}
