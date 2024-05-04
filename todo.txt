@@ -1,0 +1,2 @@
+devise a method to keep a track of already tried combinations while bruteforcing combinations on
+a single enrollment

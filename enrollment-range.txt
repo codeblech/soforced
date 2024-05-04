@@ -1,0 +1,11 @@
+// how to find
+// open google phone
+// search an enrollment number or any name
+// it will give suggestions from gsuite account
+// enroll ending with 1000's seem to not exist. ex: 19104000,19103000,19102000,19101000
+
+lowest,highest
+19101001,19104057
+9919102001,9919203237
+21101001,21104069
+22101001,22104066
